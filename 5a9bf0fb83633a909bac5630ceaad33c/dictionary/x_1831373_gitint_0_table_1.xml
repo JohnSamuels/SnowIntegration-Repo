@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="942c343f83633a909bac5630ceaad32e" label="Table 1" max_length="40" name="x_1831373_gitint_0_table_1" type="collection">
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>
